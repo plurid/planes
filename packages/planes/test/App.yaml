@@ -1,0 +1,18 @@
+- planes:
+    one:
+        framework: react
+        # component path or component ID (injected in the page as '/** Plane: <id> /*')
+        component: './path/to/component'
+    two:
+        framework: vue
+        component: './path/to/component'
+        properties:
+            - one
+            - two
+- properties:
+    one: 'two'
+    two: 'three'
+
+# - planes:
+#     - one
+#     - two
